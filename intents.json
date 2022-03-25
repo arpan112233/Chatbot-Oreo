@@ -1,0 +1,254 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+	  "Yo",
+	   "I need help",
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+	   "Good Morning"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+	   "Hello!. Nice to meet you :-) ",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later","Okay","Ok", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+		"Nice to meet you",
+        "Bye! Come back again soon.",
+	"Hope to meet you soon!!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks","great!", "Thank you", "That's helpful", "Thank's a lot!","Looks yummy!"],
+      "responses": ["Happy to help!", "Any time!", "That's my duty :-)","My pleasure","You are most Welcome!"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell momos,fries and cold drinks",
+        "We have momos,fries and cold drinks"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+	"What is the payment procedure?",
+	   "Is cash payment allowed?",
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+	"Is cash on delivery Available?",
+	"Is COD available?",
+	"Can I pay with"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard,RuPay and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?",
+        "When will I get my food?"
+      ],
+      "responses": [
+        "Delivery takes 30-70 mins, depending on your location",
+        "Depending on your delivery location, food will take 30-70 min to arrive"
+      ]
+    },
+     {
+      "tag": "menu_list",
+      "patterns": [
+        "Show me your menu list",
+        "What are the items in your menu list?",
+        "Can I have the menu card",
+        "I want to see the menu card",
+	"menu card",
+	"What is your menu?",
+	"Do you have"
+      ],
+      "responses": [
+      
+        "Menu Card\n\n 1. Chicken Momo\n 2. Veg Momo\n 3. Paneer Momo\n 4. Corn momo\n 5. French Fries\n 6. Cold drinks\n\n Price is available in detailed menu. Like type 'What is there in chicken momo?'"
+      ]
+    },
+
+
+     {
+      "tag": "timing",
+      "patterns": [
+        "When does do your resturent remains open?",
+		"When do you serve?",
+        "When does do your resturent gets open",
+		"Are you open?",
+		"What are your timings?",
+        "Is it closed?",
+        "Can I order now?",
+		"When can I order?"
+      ],
+      "responses": [
+      
+        "We are open from 9AM to 9PM"
+      ]
+    },
+    
+    {
+      "tag": "chicken_momo",
+      "patterns": [
+        "What do you have in chicken momo?",
+        "What are the varieties in chicken momo?",
+		"What are the varieties of chicken momo?",
+        "What can I have in chicken momo?",
+          "Is Chicken momo available?",
+		"I want to have chicken momo"       
+      ],
+      "responses": [
+      
+        "Chicken Momo\n\n 1. Chicken Steamed Momo ------ Rs.90\n 2. Chicken Fried Momo ------ Rs.100\n 3. Pan fried Chicken Momo ------ Rs.120\n 4. Schezwan Chicken  Momo ------ Rs.120 \n 5. Darjeeling steamed chicken Momo ------ Rs. 70\n 6. Darjeeling Fried Chicken Momo ------ Rs. 80\n 7. Darjeeling Pan Fried Chicken Momo ------ Rs.100\n 8. Chicken Cheese Momo ------ Rs.120\n "
+      ]
+    },
+    
+    {
+      "tag": "veg_momo",
+      "patterns": [
+        "What do you have in veg momo?",
+        "What are the varieties in veg momo?",
+        "What can I have in veg momo?",
+        "Is Veg momo available?",
+		"I want to have veg momo"       
+      ],
+      "responses": [
+      
+        "Veg Momo\n\n 1. Veg Steamed Momo ------ Rs.60\n 2. Veg Fried Momo ------ Rs.70\n 3. Pan fried Veg Momo ------ Rs.90\n 4. Schezwan Veg  Momo ------ Rs.90\n 5. Darjeeling steamed Veg Momo ------ Rs.50\n 6. Darjeeling Fried Veg Momo ------ Rs.60\n 7. Darjeeling Pan Fried Veg Momo ------ Rs.80\n 8. Veg Cheese Momo  ------ Rs.100\n"
+      ]
+    },
+    
+    
+    {
+      "tag": "paneer_momo",
+      "patterns": [
+        "What do you have in paneer momo?",
+        "What are the varieties in paneer momo?",
+        "What can I have in paneer momo?",
+        "Is paneer momo available?",
+		"I want to have paneer momo"       
+      ],
+      "responses": [
+      
+        " Paneer Momo\n\n 1. Paneer Fried Momo ------ Rs.80\n 2. Pan fried Paneer Momo ------ Rs.100\n 3. Schezwan Paneer  Momo ------ Rs.100\n 4. Paneer Cheese Momo  ------ Rs.110\n"
+      ]
+    },
+     {
+      "tag": "corn_momo",
+      "patterns": [
+        "What do you have in corn momo?",
+        "What are the varieties in corn momo?",
+        "What can I have in corn momo?",
+        "Is corn momo available?",
+		"I want to have corn momo"       
+      ],
+      "responses": [
+      
+        "Corn Momo\n\n 1. Corn Steamed Momo ------ Rs.60\n 2. Corn Fried Momo ------ Rs.70\n 3. Pan fried Corn Momo ------ Rs.90\n 4. Schezwan Corn  Momo ------ Rs.90\n 4. Corn Cheese Momo  ------ Rs.100\n"
+      ]
+    },
+    
+    
+    {
+      "tag": "Cold_drinks",
+      "patterns": [
+        "What do you have in Cold Drinks?",
+        "What are the varieties in Cold Drinks?",
+        "What can I have in Cold Drinks?",
+        "Is Cold drinks available?",
+		"I want to have cold drinks"       
+      ],
+      "responses": [
+      
+        " Cold Drinks\n\n 1. Pepsi(250ml) ------ Rs.25\n 2. Thumbs up(250ml) ------ Rs.25\n 3. Coca Cola(250ml) ------ Rs.25\n 4. Sprite(250ml) ------ Rs.25\n 5. Maaza(250ml)  ------ Rs.25\n"
+      ]
+    },
+    
+    {
+      "tag": "French fries",
+      "patterns": [
+        "What do you have in French fries",
+        "What are the varieties in French fries?",
+        "What can I have in French fries?",
+        "Is french fries available?",
+		"I want to have french fried"       
+      ],
+      "responses": [
+      
+        " Cold Drinks\n\n 1. Half plate ------ Rs.60\n 2. Full plate ------ Rs.100\n"
+      ]
+    },
+
+    {
+      "tag": "wb",
+      "patterns": [
+        "I want to have",
+        "I want to buy",
+        "I want to order",
+		
+        "I wanna to order",
+
+        "Give me",
+	"I want to eat"
+      ],
+      "responses": [
+      
+        "You can order online in our website www.momato.com or can see the items in menu card before ordering"
+      ]
+    },
+
+
+{
+      "tag": "price",
+      "patterns": [
+        "What is the cost of",
+        "what is the price of",
+        "How much do I need to pay?",
+		"How much does momo cost",
+        "Price",
+
+        "cost"
+      ],
+      "responses": [
+      
+        "You can see the price of items in menu card."
+      ]
+    }
+
+
+    
+    
+    
+    
+
+  ]
+}

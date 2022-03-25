@@ -1,0 +1,13 @@
+
+-> It is a simple implementation of chatbot using PyTorch
+-> Here, feed forward neural network is used with hidden layers
+-> A basic UI design is made for better visualisation
+-> The important packages used here are: PyTorch, nltk, numpy and tkinter
+-> Pytorch installation: Go to console and run pip install torch
+-> numpy installation: Go to console and run pip install numpy
+-> tkinter installation: Go to console and run pip install tk
+-> nltk installation: Go to console and run pip install nltk. Then run nltk.download(). After that choose all and click download
+-> Before running the code, at least once, the statement nltk.download('punkt') should be run. 
+-> This should be run single time only,after it is downloaded, no need to run it again later
+-> Jupyter notebook is used for running the entire code
+-> Name of our dataset is intents.json
